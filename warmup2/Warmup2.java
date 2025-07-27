@@ -49,6 +49,10 @@ public boolean doubleX(String str) {
 
 
 
+
+
+
+
 public String stringBits(String str) {
     String result = "";
     for (int i = 0; i < str.length(); i += 2) {
@@ -108,4 +112,14 @@ public boolean arrayFront9(int[] nums) {
 }
 
 
+
+
+public boolean array123(int[] nums) {
+    for (int i = 0; i < nums.length - 2; i++) {
+        if (nums[i] == 1 && nums[i + 1] == 2 && nums[i + 2] == 3) {
+            return true;
+        }
+    }
+    return false;
+}
 
